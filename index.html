@@ -8,16 +8,23 @@
     <title>Listagem</title>
 </head>
 <body>
-       <div class="container">
-        <div class="inner-container">
-                <h1>Listagem de Tarefas</h1>
+      <div class="todo">
+              <div class="todo--title">
+                      Todo-list
+              </div>
 
-                <input type="tex"
-                id="tarefa"
-                placeholder="Digite sua tarefa...." />
-                <button onclick()>+</button>
-        </div>
-       </div>
+              <div class="todo--list" id="todoList">
+                      <label class="todo--item">
+                              <input type="checkbox">
+                              <div>teste de item 2</div>
+                              <input type="button" value="X">
+                      </label>
+              </div>
+
+              <div class="todo--new--item">
+                      <input type="text" id="newItem" placeholder="DIGITE AQUI....">
+              </div>
+      </div>
 
 
         <script src="script.js"></script>
